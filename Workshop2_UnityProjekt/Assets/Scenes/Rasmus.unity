@@ -5565,6 +5565,7 @@ GameObject:
   - component: {fileID: 1597182359}
   - component: {fileID: 1597182358}
   - component: {fileID: 1597182357}
+  - component: {fileID: 1597182361}
   m_Layer: 0
   m_Name: Ball (1)
   m_TagString: Untagged
@@ -5705,6 +5706,22 @@ Transform:
   m_Children: []
   m_Father: {fileID: 790777575}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1597182361
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597182356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1585401739549b42846e835144c7feb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Var1: 3
+  Var2: 20
+  Var3: 9
+  VarSecret: 69
 --- !u!1 &1597294532
 GameObject:
   m_ObjectHideFlags: 0
@@ -6510,7 +6527,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: cc29d78ff91007e4a89b83630c473e6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
