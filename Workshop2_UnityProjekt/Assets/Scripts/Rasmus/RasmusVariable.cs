@@ -7,4 +7,12 @@ public class RasmusVariable : MonoBehaviour
     public int Var3 = 9;
 
     [SerializeField] private int Var4 = 32;
+
+    void Start()
+    {
+        Debug.Log(Var1);
+        Debug.Log(Var2);
+        Debug.Log(Var3);
+        Debug.Log(Var4);
+    }
 }
