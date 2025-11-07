@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 104249493}
   - component: {fileID: 104249495}
   - component: {fileID: 104249496}
+  - component: {fileID: 104249497}
   m_Layer: 0
   m_Name: Circle
   m_TagString: Untagged
@@ -271,6 +272,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &104249497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 104249492}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 551465b2fd4693e4a9a763799ed79702, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enint: 0
 --- !u!1 &305438772
 GameObject:
   m_ObjectHideFlags: 0
@@ -1291,7 +1305,7 @@ AudioSource:
   m_GameObject: {fileID: 710539393}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 82752c53959cd954f86882dba642758b, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: a6c6714306bb05140b1d609a5b75063b, type: 3}
   m_PlayOnAwake: 1

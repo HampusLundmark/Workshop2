@@ -695,6 +695,7 @@ GameObject:
   - component: {fileID: 801923678}
   - component: {fileID: 801923677}
   - component: {fileID: 801923676}
+  - component: {fileID: 801923679}
   m_Layer: 0
   m_Name: EventSystem
   m_TagString: Untagged
@@ -763,6 +764,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &801923679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 801923675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae4714b8bc0bf447bde0a33044d2c4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hamNum: 1
 --- !u!1 &821107184
 GameObject:
   m_ObjectHideFlags: 0
@@ -1135,7 +1149,7 @@ Transform:
   m_GameObject: {fileID: 1202015742}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -8.51, y: 1.03, z: 0}
+  m_LocalPosition: {x: -7.49, y: 1.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1587,7 +1601,7 @@ AudioSource:
   m_GameObject: {fileID: 1731515871}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 82752c53959cd954f86882dba642758b, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 08fe0dcfbecfe45488f660f62cfa58ca, type: 3}
   m_PlayOnAwake: 1
