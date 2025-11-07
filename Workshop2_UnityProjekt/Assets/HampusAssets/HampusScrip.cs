@@ -1,13 +1,13 @@
 using UnityEngine;
 
-public class HampusMono : MonoBehaviour
+public class HampusAssets : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
 
-    public int HamNum = 1;
+    public int hamNum = 1;
     void Start()
     {
-        Debug.Log(HamNum);
+        Debug.Log($"{hamNum}");
     }
   
 }
