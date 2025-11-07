@@ -35,5 +35,10 @@ public class SceneLoader : MonoBehaviour
         {
             ReloadScene();
         }
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            LoadScene(0);
+        }
     }
 }
