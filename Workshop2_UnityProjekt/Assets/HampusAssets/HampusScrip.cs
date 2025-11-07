@@ -7,7 +7,7 @@ public class HampusAssets : MonoBehaviour
     public int hamNum = 1;
     void Start()
     {
-        Debug.Log($"{hamNum}");
+        Debug.Log($"Test{hamNum}");
     }
   
 }
