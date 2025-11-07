@@ -1,9 +1,8 @@
 using UnityEngine;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class JoakimScript : MonoBehaviour
 {
-    public int triangles = 1;
-    
+    [SerializeField] private int enint = 0;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -13,7 +12,6 @@ public class NewMonoBehaviourScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
-        Debug.Log("asdf");
+        
     }
 }
